@@ -8,15 +8,15 @@ This is a full-fledged **Product Management** backend system built using **Sprin
 
 ## 📌 Table of Contents
 
-- [📖 Project Overview](#project-overview)
-- [🧑‍💻 Roles & Permissions](#roles--permissions)
-- [🧠 SDLC Approach with GitHub Copilot](#sdlc-approach-with-github-copilot)
-- [📁 Project Structure](#project-structure)
-- [🚀 Getting Started](#getting-started)
-- [📬 API Endpoints](#api-endpoints)
-- [📊 UML Diagrams](#uml-diagrams)
-- [📜 Prompt Logs](#prompt-logs)
-- [🛠️ Tech Stack](#tech-stack)
+- [📖 Project Overview]
+- [🧑‍💻 Roles & Permissions]
+- [🧠 SDLC Approach with GitHub Copilot]
+- [📁 Project Structure]
+- [🚀 Getting Started]
+- [📬 API Endpoints]
+- [📊 UML Diagrams]
+- [📜 Prompt Logs]
+- [🛠️ Tech Stack]
 
 
 ---
@@ -74,7 +74,7 @@ GenAI/
 ├── Diagrams/ # UML design files (draw.io + XML)
 
 
-📬 API Endpoints
+##📬 API Endpoints
 🔐 Authentication
 Method	Endpoint	Description
 POST	/api/auth/register	Register user
@@ -89,7 +89,7 @@ POST	/api/products	ADMIN, MANAGER
 PUT	/api/products/{id}	ADMIN, MANAGER
 DELETE	/api/products/{id}	ADMIN only
 
-📜 Prompt Logs
+##📜 Prompt Logs
 Prompts and conversations with GitHub Copilot have been documented step-by-step:
 
 PromptsLogs/1_Prompts_RequiementGathering.txt
@@ -100,7 +100,7 @@ PromptsLogs/3_Prompts_MicroServiceCreation.txt
 
 These ensure complete transparency and traceability of how the application evolved using GenAI.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Java 17
 
 Spring Boot
