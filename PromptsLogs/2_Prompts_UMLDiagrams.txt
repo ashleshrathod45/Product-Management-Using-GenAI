@@ -1,0 +1,127 @@
+P1-
+Generate a textual description of a UML Use Case Diagram for a Product Management System. 
+List actors and their interactions with use cases.
+
+A1-
+Textual Description of UML Use Case Diagram for Product Management System
+
+Actors:
+
+Product Manager
+Administrator
+Sales Staff
+Inventory Manager
+System User (authenticated)
+Guest User (limited access)
+Use Cases and Actor Interactions:
+
+Product Manager
+
+Create Product
+Update Product
+Assign Categories/Tags
+Administrator
+
+Delete Product
+Manage User Accounts and Roles
+Generate Reports
+Audit Changes
+Sales Staff
+
+View Product List
+Search Products
+Inventory Manager
+
+Manage Inventory
+System User (authenticated)
+
+User Authentication
+View Product List
+Search Products
+Guest User
+
+View Product List (limited access)
+Search Products (limited access)
+Summary:
+Each actor interacts with specific use cases relevant to their role. 
+Product Managers handle product creation and updates. 
+Administrators manage users, reports, and audits. 
+Sales Staff and System Users view and search products. 
+Inventory Managers update stock levels. 
+Guest Users have restricted access to viewing and searching products.
+
+P2-
+Generate Draw.io XML for a UML use case diagram with: 
+- Actors: Admin, Manager
+- Use cases: Add Product, View Product, Delete Product, Generate Report
+
+A2-
+<!-- Draw.io XML for UML Use Case Diagram: Admin, Manager; Add/View/Delete Product, Generate Report -->
+<mxfile host="app.diagrams.net">
+  <diagram name="UML Use Case Diagram" id="1">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Actors -->
+        <mxCell id="2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="40" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="40" height="80" as="geometry"/>
+        </mxCell>
+        <!-- Use Cases -->
+        <mxCell id="4" value="Add Product" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="View Product" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Delete Product" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Generate Report" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Relationships -->
+        <mxCell id="8" style="endArrow=none;html=1;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" style="endArrow=none;html=1;" edge="1" parent="1" source="2" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" style="endArrow=none;html=1;" edge="1" parent="1" source="2" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" style="endArrow=none;html=1;" edge="1" parent="1" source="2" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" style="endArrow=none;html=1;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" style="endArrow=none;html=1;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+
+Error Encountered in VS Code:
+> Not a diagram file (error on line 2 at column 6: XML declaration allowed only at the start of the document)
+
+Fix:
+- Ensured the XML declaration `<?xml version="1.0"?>` is the first line with no whitespace before it.
+- Saved file with UTF-8 encoding (without BOM) using VS Code command: `Change File Encoding`.
+
+P3-
+Generate Draw.io XML for a UML Class Diagram for a Java-based Product Management System. Include the following classes:
+product, admin, manager and product service. also make sure label the diagrama and border it
+
+P4-
+Generate Draw.io XML for an ER Diagram for a Product Management System.
+Entities: Product, Admin, Manager
+Relationships: Admin can manage many Products, Manager can view many Products
+Use standard ERD and make a border and give labeling to this diagram
+
+P5-
+Generate Draw.io XML for a UML Sequence Diagram for the scenario: "Admin adds a product". Involve these objects: Admin UI ProductService Database Show method calls like: enterProductDetails(), validate(), addProduct(), saveToDB().
+Include lifelines and activation bars.

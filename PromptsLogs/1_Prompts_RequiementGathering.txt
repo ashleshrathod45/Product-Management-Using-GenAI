@@ -1,0 +1,48 @@
+Prompts for Requirement Gathering
+
+P1-
+I am building a Java full-stack product management system.
+Help me write functional and non-functional requirements, list of actors, and use cases.
+
+A1-
+Functional Requirements
+
+The system shall allow users to create, view, update, and delete products.
+The system shall support user authentication and authorization.
+The system shall allow users to assign categories and tags to products.
+The system shall provide search and filter functionality for products.
+The system shall enable users to track product inventory levels.
+The system shall generate reports on product sales and inventory.
+The system shall allow administrators to manage user accounts and roles.
+
+Non-Functional Requirements
+
+The system shall respond to user actions within 2 seconds.
+The system shall support at least 100 concurrent users.
+The system shall ensure data security and privacy.
+The system shall be available 99.9% of the time.
+The system shall be compatible with major browsers (Chrome, Firefox, Edge).
+The system shall provide audit logs for all product changes.
+The system shall be scalable to support future growth.
+
+Actors
+
+Product Manager
+Administrator
+Sales Staff
+Inventory Manager
+System User (authenticated)
+Guest User (limited access)
+Use Cases
+
+Create Product: Product Manager adds a new product to the catalog.
+Update Product: Product Manager modifies product details.
+Delete Product: Administrator removes a product from the system.
+View Product List: Sales Staff views available products.
+Search Products: System User searches for products by name, category, or tag.
+Manage Inventory: Inventory Manager updates stock levels.
+Generate Reports: Administrator generates sales and inventory reports.
+User Authentication: System User logs in to access features.
+Assign Roles: Administrator assigns roles to users.
+Audit Changes: Administrator reviews audit logs for product changes.
+

@@ -1,0 +1,95 @@
+P1-
+as per the requirement gathered, generate me the codes for the product management in spring maven. i have used initializer and created a file called productservice. it has all the necessary dependencies. use sql for the datbase. also make sure to providde me full backend with package names and class names
+
+P2-
+Next i want to proceed with implementing the security part. give me codes so that i can easily use spring security and jwt toekenisation to verify and login.
+Then we can complete the backend part
+
+P3-
+provide me proper authcontroller with all the @PreAuthrize and incomplete parts
+also provide me securityconfig again as i am getting some follwoing warnings and errors
+[{
+	"resource": "/g:/Codings/GenAI/Microservice/productservice/src/main/java/com/productmanagement/security/SecurityConfig.java",
+	"owner": "_generated_diagnostic_collection_name_#5",
+	"code": "67110275",
+	"severity": 4,
+	"message": "The method csrf() from the type HttpSecurity has been deprecated since version 6.1 and marked for removal",
+	"source": "Java",
+	"startLineNumber": 18,
+	"startColumn": 14,
+	"endLineNumber": 18,
+	"endColumn": 18,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/g:/Codings/GenAI/Microservice/productservice/src/main/java/com/productmanagement/security/SecurityConfig.java",
+	"owner": "_generated_diagnostic_collection_name_#5",
+	"code": "67110275",
+	"severity": 4,
+	"message": "The method authorizeHttpRequests() from the type HttpSecurity has been deprecated since version 6.1 and marked for removal",
+	"source": "Java",
+	"startLineNumber": 19,
+	"startColumn": 14,
+	"endLineNumber": 19,
+	"endColumn": 35,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/g:/Codings/GenAI/Microservice/productservice/src/main/java/com/productmanagement/security/SecurityConfig.java",
+	"owner": "_generated_diagnostic_collection_name_#5",
+	"code": "67110275",
+	"severity": 4,
+	"message": "The method and() from the type AuthorizeHttpRequestsConfigurer<HttpSecurity>.AuthorizationManagerRequestMatcherRegistry has been deprecated since version 6.1 and marked for removal",
+	"source": "Java",
+	"startLineNumber": 23,
+	"startColumn": 14,
+	"endLineNumber": 23,
+	"endColumn": 17,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/g:/Codings/GenAI/Microservice/productservice/src/main/java/com/productmanagement/security/SecurityConfig.java",
+	"owner": "_generated_diagnostic_collection_name_#5",
+	"code": "67110275",
+	"severity": 4,
+	"message": "The method sessionManagement() from the type HttpSecurity has been deprecated since version 6.1 and marked for removal",
+	"source": "Java",
+	"startLineNumber": 24,
+	"startColumn": 14,
+	"endLineNumber": 24,
+	"endColumn": 31,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/g:/Codings/GenAI/Microservice/productservice/src/main/java/com/productmanagement/security/SecurityConfig.java",
+	"owner": "_generated_diagnostic_collection_name_#6",
+	"code": "JAVA_LAMBDA_DSL",
+	"severity": 2,
+	"message": "Consider switching to 'HttpSecurity' Lambda DSL syntax",
+	"source": "vscode-spring-boot",
+	"startLineNumber": 18,
+	"startColumn": 9,
+	"endLineNumber": 24,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/g:/Codings/GenAI/Microservice/productservice/src/main/java/com/productmanagement/security/SecurityConfig.java",
+	"owner": "_generated_diagnostic_collection_name_#6",
+	"code": "JAVA_LAMBDA_DSL",
+	"severity": 2,
+	"message": "Consider switching to 'HttpSecurity' Lambda DSL syntax",
+	"source": "vscode-spring-boot",
+	"startLineNumber": 18,
+	"startColumn": 9,
+	"endLineNumber": 24,
+	"endColumn": 43,
+	"origin": "extHost1"
+}]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="ER Diagram - Product Management System" id="1">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Border -->
+        <mxCell id="border" style="rounded=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="600" height="350" as="geometry"/>
+        </mxCell>
+
+        <!-- Diagram Label -->
+        <mxCell id="label" value="ER Diagram: Product Management System" style="text;html=1;fontSize=18;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="400" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Entities -->
+        <mxCell id="2" value="Product&#10;id (PK)&#10;name&#10;price&#10;quantity" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333399;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="160" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Admin&#10;id (PK)&#10;username&#10;password" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;strokeColor=#993333;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Manager&#10;id (PK)&#10;username&#10;password" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;strokeColor=#339966;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Relationships -->
+        <mxCell id="5" value="manages" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#993333;fillColor=#fff2e6;" vertex="1" parent="1">
+          <mxGeometry x="170" y="105" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="views" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#339966;fillColor=#e6fff2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="245" width="60" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Connectors -->
+        <mxCell id="7" style="endArrow=none;html=1;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" style="endArrow=none;html=1;" edge="1" parent="1" source="5" target="2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" style="endArrow=none;html=1;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" style="endArrow=none;html=1;" edge="1" parent="1" source="6" target="2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Cardinality Labels -->
+        <mxCell id="11" value="1" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="N" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="1" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="N" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="20" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
