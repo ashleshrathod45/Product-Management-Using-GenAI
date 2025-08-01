@@ -75,13 +75,13 @@ GenAI/
 
 
 ##📬 API Endpoints
-🔐 Authentication
+## 🔐 Authentication
 Method	Endpoint	Description
 POST	/api/auth/register	Register user
 POST	/api/auth/login	Login & get token
 GET	/api/auth/me	Get current user
 
-📦 Product Management
+## 📦 Product Management
 Method	Endpoint	Role(s)
 GET	/api/products	ADMIN, MANAGER
 GET	/api/products/{id}	ADMIN, MANAGER
@@ -89,7 +89,7 @@ POST	/api/products	ADMIN, MANAGER
 PUT	/api/products/{id}	ADMIN, MANAGER
 DELETE	/api/products/{id}	ADMIN only
 
-##📜 Prompt Logs
+## 📜 Prompt Logs
 Prompts and conversations with GitHub Copilot have been documented step-by-step:
 
 PromptsLogs/1_Prompts_RequiementGathering.txt
